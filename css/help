@@ -1,0 +1,17 @@
+window.addEventListener('load', setTimeout(function(){ const preloader = document.querySelector('.loader-wrapper');
+preloader.classList.add("preload-finish") }, 3000)
+);
+
+<div data-aos="fade-up">
+                    <span class="text_color">H</span>
+                    <span class="m-left text_color">i</span>
+                    <span class="m-left text_color">,</span>
+                    <span class="m-left text_color">&nbspm</span>
+                    <span class="m-left text_color">y</span>
+                    <span class="m-left text_color">&nbspn</span>
+                    <span class="m-left text_color">a</span>
+                    <span class="m-left text_color">m</span>
+                    <span class="m-left text_color">e</span>
+                    <span class="m-left text_color">&nbspi</span>
+                    <span class="m-left text_color">s</span>
+                </div>
