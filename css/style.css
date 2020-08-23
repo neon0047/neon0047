@@ -56,46 +56,9 @@ span.m-left{
 .name{
     color: #CCD6F6;
     font-size: 5rem;
-    font-weight:bolder;
-   
-    
-    
-}
-    
-
-.text p{
-    letter-spacing: 3px;
-    word-spacing: 1opx;
-    font-size: .8rem;
-}
-.text a{
-    padding: 12px 15px;
-    background-color: none;
-    border: 3px solid #ED5565;
-    color: #ED5565;
-    font-size: 0.8rem;
-    letter-spacing: 2px;
-    position: relative;
-    top: 80px;
-    overflow: hidden;
-    transition: .5s;
-    display: inline-block;     
+    font-weight:bolder;   
 }
 
-
-.text a::before{
-    content: '';
-    background-color: #ED5565;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    z-index: -1;
-    transition: .5s;
-}
-.text a::before{
-    height: 100%;
-}
 .profile-image img{
     width:450px;
     margin-top: 50px;
@@ -221,10 +184,7 @@ h4.title{
     text-decoration: none;
     font-weight: bolder;
     overflow: hidden;
-    transition: 0.2s;
-    
-    
-    
+    transition: 0.2s;    
 }
 
 .link-hover-effect:hover{
@@ -426,7 +386,7 @@ html {
             display: flex;
             flex-direction: column;
             align-items: center;
-            width: 60%;
+            width: 50%;
             transform: translateX(100%);
             transition: transform 0.5s ease-in;
             
@@ -452,7 +412,7 @@ html {
         .get_in_touch{
           font-size: 3vw;
           padding: 10px 15px;
-          z-index: -1;
+          
         }
         .about-text{
           width: 100%;
