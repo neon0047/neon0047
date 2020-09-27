@@ -308,7 +308,7 @@ html {
     top: -30px;
   }
   .timeline ul li:hover::before {
-    background-color: #64ffda;
+    background-color: orchid;
   }
 }
     .navi{
@@ -884,4 +884,7 @@ html {
   display: flex;
  
  
+}
+.exp-link:hover{
+  text-decoration: none;
 }
